@@ -1,0 +1,15 @@
+# config/config.yaml
+
+# Text Splitter Configuration
+max_chunk_size: 4000
+
+# Input/Output Configuration
+input_directory: "data/book/raw"
+book_title: "Nutrition: Science and Everyday Application"
+output_file: "output_chunks.json"
+
+# Logging Configuration
+log_file: "text_splitter.log"
+log_level: "INFO"
+log_max_size: 1048576
+log_backup_count: 5
